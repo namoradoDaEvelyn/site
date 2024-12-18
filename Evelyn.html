@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4 Meses de Namoro</title>
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            font-family: 'Courier, monospace';
+            background-image: url('./imagem-fundo.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            color: #fff;
+        }
+
+        /* Estilo do link */
+        a {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            font-size: 2rem;
+            text-shadow: 2px 2px 4px #000000;
+            padding: 10px 20px;
+            margin-bottom: 20px;
+            background: rgba(208, 48, 115, 0.9);
+            border-radius: 20px;
+            transition: 0.3s ease;
+        }
+
+        a:hover {
+            background: rgba(254, 53, 137, 0.9);
+            color: #000;
+        }
+
+        /* Caixa de texto */
+        .textinho-praevelyn {
+            background-color: rgba(208, 48, 115, 0.9);
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(46, 46, 46, 0.19);
+            transition: 0.3s ease;
+            max-width: 90%;
+            margin: 0 auto;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .textinho-praevelyn:hover {
+            background-color: violet;
+        }
+
+        h1 {
+            margin-bottom: 15px;
+            border-bottom: 2px solid #fff;
+            display: inline-block;
+        }
+
+        p {
+            font-size: 1.2rem;
+            line-height: 1.5;
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            body {
+                background-image: url('./imagem-mobile.jpg');
+                height: 100vh;
+                padding: 10px;
+            }
+
+            a {
+                font-size: 1.5rem;
+            }
+
+            .textinho-praevelyn {
+                padding: 15px;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <a href="#">Mensagem de Amor</a>
+    <div class="textinho-praevelyn">
+        <h1>Um textinho pra você :3</h1>
+        <p>
+            Oiiii amor, fiz esse site pra você para comemorar os nossos 4 meses de namoro,<br>
+            quero que saiba que eu te amo muito, você é minha rosa sem espinhos,<br>
+            você é tudo pra mim, eu te amo!!!
+        </p>
+    </div>
+</body>
+
+</html>
